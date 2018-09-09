@@ -1,0 +1,2 @@
+az account set -s "***********************" //subscription id
+az group deployment create --resource-group strata_group_2 --template-file arm_template.json --parameters arm_template_parameters.json
